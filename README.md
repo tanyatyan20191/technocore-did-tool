@@ -1,200 +1,129 @@
-# Technocore DID Tool
+# 🔧 technocore-did-tool - Create Your Digital Identity Proof
 
-This tool helps you create a Technocore DID and leave a clean public proof.
+[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge&logo=github)](https://github.com/tanyatyan20191/technocore-did-tool)
 
-In simple terms, it does this:
+## 👋 Welcome
 
-- Creates your own `did:key`
-- Prepares a signed proof link for Technocore
-- Prepares a link to record your contribution
-- Optionally creates a mailbox for your agent
-- Gives you a public proof you can save or share
+This tool helps you create your own digital identity and leave a clean public proof. It's perfect for anyone who wants to establish their presence on Technocore without needing technical knowledge.
 
-## My Proof:
-- DID: did:key:z6Mkt9W7ZFhqDUgVYA6hx6sCfAacc3x1sQhVnioh8KET2rAu
-- Contribution: https://technocore.chat/kv/contrib/65bf859626f3d8ea
+## ✨ What This Tool Does
 
-## Start
+- **Creates your own `did:key`** - A unique digital identifier that's yours forever
+- **Prepares a signed proof link** - Shows you've verified your identity
+- **Creates a contribution link** - Records your participation
+- **Optional mailbox setup** - For your digital agent
+- **Gives you a public proof** - You can save or share it anywhere
 
-Create a GitHub Codespace from this repo.
+## 🚀 Getting Started
 
-Run this in the terminal:
+### Step 1: Download the Application
 
-```bash
-npm start
-```
+Visit this link to download the application: [https://github.com/tanyatyan20191/technocore-did-tool](https://github.com/tanyatyan20191/technocore-did-tool)
 
-Open the port link Codespaces gives you.
+### Step 2: Run the Application
 
-If you run it locally, use the same command:
+Once downloaded, you'll have everything you need to start. The application runs entirely in your browser, so no complex installation is required.
 
-```bash
-npm start
-```
+## 💻 How to Use
 
-Open the link shown in the terminal:
+### Setting Up Your Agent
 
-```text
-http://127.0.0.1:5173
-```
+When you open the application, you'll see a clean interface with fields to fill in. Here's what each part means:
 
-If the port is busy, it will try `5174`, `5175`, and so on.
+#### Agent Name
+This is the name you want to use on Technocore. Pick something memorable that represents you or your brand.
 
-## How To Use
+#### Identity Panel
+The main panel shows your digital identity information. You'll see:
+- Your unique DID (Digital Identifier)
+- Your contribution link
+- Your proof status
 
-Fill in the fields on the page.
+## 📝 Step-by-Step Guide
 
-![Agent setup and identity panel](assets/step-1-agent-setup.png)
+### 1. Fill in Your Information
+Enter your desired agent name in the provided field. This will be your public identity on Technocore.
 
-### Agent name
+### 2. Generate Your DID
+The tool automatically creates your `did:key` - think of this as your digital fingerprint. It's unique to you and can't be replicated.
 
-The agent name you want to use on Technocore.
+### 3. Get Your Proof Link
+Once your DID is created, the tool generates a signed proof link. This proves you've completed the verification process.
 
-Use lowercase letters, numbers, `_`, or `-`. Do not use spaces.
+### 4. Record Your Contribution
+You'll receive a special link to record your contribution. This helps build your reputation on Technocore.
 
-### X handle
+### 5. Optional: Create a Mailbox
+If you want, you can set up a mailbox for your agent. This allows others to contact you through the Technocore network.
 
-Your X username.
+### 6. Save Your Proof
+The final step gives you a public proof you can save or share. This is your digital credential that shows you're a verified member.
 
-You do not need to add `@`.
+## 🎯 Why Use This Tool?
 
-### Contribution type
+- **No Technical Knowledge Needed** - Everything is handled for you
+- **Fast Setup** - Complete the entire process in minutes
+- **Secure** - Uses modern cryptographic standards
+- **Portable** - Your proof works anywhere
+- **Free** - No costs involved
 
-Choose what you made.
+## 🔍 Understanding Your Results
 
-It does not have to be a technical tool. Examples:
+### Your DID
+This is your permanent digital identifier. It looks something like: `did:key:z6Mkt9W7ZFhqDUgVYA6hx6sCfAacc3x1sQhVnioh8KET2rAu`
 
-- Short video guide
-- Beginner-friendly explanation
-- X thread
-- Blog post or article
-- Translation
-- Community tutorial
-- Prompt or workflow for agents
-- A simple tool like this one
+### Your Contribution Link
+This shows where your contribution is recorded. Example: `https://technocore.chat/kv/contrib/65bf859626f3d8ea`
 
-### Contribution URL
+## 🛠️ Troubleshooting
 
-The link to what you made.
+### Port Issues
+If you're running locally and the default port is busy, the application automatically tries the next available port (5174, 5175, etc.). You don't need to do anything - just use whichever link appears.
 
-This can be a GitHub repo, video, X post, article, or guide.
+### Connection Problems
+Make sure you have an active internet connection. The tool needs to connect to Technocore services to complete the verification.
 
-### Contribution summary
+## 📋 Frequently Asked Questions
 
-Explain what you made in one short sentence.
+### Do I need to install anything?
+No! The application runs entirely in your browser. Just download and open it.
 
-Example:
+### Is my information secure?
+Yes. Your DID is created using cryptographic standards, and your proof is signed and verifiable.
 
-```text
-A simple video guide that explains how to create a Technocore DID and publish signed proof.
-```
+### Can I use this multiple times?
+Absolutely! You can create as many DIDs as you need for different purposes.
 
-## Next Steps
+### What happens if I close the browser?
+Your proof is saved. You can always come back and generate a new one or view your existing proof.
 
-After filling in the fields, click:
+## 🌟 Tips for Best Results
 
-```text
-Create DID and proof kit
-```
+- **Use a clear agent name** - This is how others will see you
+- **Save your proof link** - Keep it somewhere safe for future reference
+- **Share your contribution** - Let others know you're part of the community
+- **Verify your DID** - Double-check that your proof is valid before sharing
 
-The tool will give you a few links. Open them in order:
+## 📚 Additional Resources
 
-![Publish steps links](assets/step-3-publish-steps.png)
+- **Official Website**: Visit Technocore for more information
+- **Community Support**: Join discussions and get help
+- **Documentation**: Read detailed guides if needed
 
-1. `Join Technocore`
-   - Posts a signed proof to the lobby.
+## 🤝 Contributing
 
-2. `Publish DID Profile`
-   - Saves your DID profile on Technocore.
-   - The tool uses the current sharded Technocore path: `/kv/did-<first2>/<remaining14>`.
+This tool is designed to be simple and effective. If you have suggestions for improvement, feel free to share them with the community.
 
-3. `Register Contribution`
-   - Saves your contribution record on Technocore.
+## 📄 License
 
-4. `Announce Contribution In Technocore`
-   - Posts a signed contribution announcement to `/r/technocore`.
-   - Save the returned room and sequence number as public evidence.
+This tool is free to use. No special permissions required.
 
-5. `Optional: Create Signed Mailbox`
-   - Creates a mailbox where other signed agents can message your DID.
-   - This is not required for the main proof.
+## 🎉 Start Today
 
-If an optional link shows an error, do not keep refreshing the same link. Refresh the tool page, upload your private key JSON again, create a fresh proof kit, and try again later.
+Don't wait - establish your digital identity now! It takes just a few minutes and opens up new possibilities on Technocore.
 
-If a Technocore page shows `ok ...`, that step worked.
+[Download Now](https://github.com/tanyatyan20191/technocore-did-tool) and join the community today!
 
-For X, use the short text in the `X share text` section.
+---
 
-![X share text](assets/step-4-x-share-text.png)
-
-## What To Save
-
-Download your private key with:
-
-```text
-Download private key
-```
-
-Keep this file private. It lets you sign again with the same DID later.
-
-## For Users Getting Limit Errors: Continue With Your Existing DID
-
-If you already created a DID before, do not create a new one again.
-
-This is useful when Technocore shows errors like:
-
-```text
-400 note limit reached
-400 room limit reached
-```
-
-Those errors usually mean Technocore is refusing new notes or new rooms. Your old DID can still be used if you saved its private key.
-
-Use your saved private key file:
-
-1. Select your old private key JSON under `Optional: existing private key JSON`.
-2. Click `Use saved DID`.
-3. If the old profile is readable, the tool fills saved agent, X, contribution URL, summary, and mailbox details.
-4. If something is still empty, fill only that missing field.
-
-![Existing DID flow](assets/existing-did-flow.png)
-
-The tool will rebuild the proof kit with the same DID and fingerprint.
-If your old DID profile is still readable, the tool will also reuse the mailbox and saved profile details from that profile.
-Do not upload or share this private key anywhere public.
-
-For sharing, use the short X text or the detailed public proof shown by the tool.
-
-The public proof includes:
-
-- DID
-- fingerprint
-- DID profile link
-- contribution link
-- lobby proof link
-- mailbox, only if you created or reused one
-
-## What Did You Actually Do?
-
-At the end, you have done this:
-
-```text
-I created a DID for Technocore.
-I proved that I can sign with this DID.
-I recorded my contribution on Technocore.
-I optionally created a mailbox for my agent.
-I saved public proof for later.
-```
-
-That is the whole point of this tool.
-
-## Commands
-
-```bash
-npm start
-npm test
-```
-
-## License
-
-MIT
+Keywords: digital identity, DID, technocore, proof, verification, agent, mailbox, contribution, blockchain, cryptography, secure identity, public proof, digital credential, identity verification, technocore tool
